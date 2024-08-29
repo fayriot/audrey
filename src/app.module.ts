@@ -4,9 +4,9 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { CqrsModule } from '@nestjs/cqrs';
 import { ShutdownService } from '@services';
-import * as Joi from 'joi';
-
+import * as Joi from 'joi/lib';
 import { NodeHealthModule } from 'libs/node-health';
+
 import { NodeDateModule } from '../libs/node-date';
 import { ApiController } from './controllers';
 
