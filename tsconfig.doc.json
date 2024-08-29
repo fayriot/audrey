@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.build.json",
+    "compilerOptions": {
+        "strictPropertyInitialization": false,
+        "noImplicitOverride": false,
+        "types": [],
+        "noPropertyAccessFromIndexSignature": false
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["**/*.spec.ts"]
+}

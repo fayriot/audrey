@@ -1,0 +1,12 @@
+{
+    "vsicons.presets.nestjs": true,
+
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll.eslint"],
+    "eslint.workingDirectories": ["./src/*"],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.endOfLine": "crlf",
+    "runOnSave.statusMessageTimeout": 2000
+}
